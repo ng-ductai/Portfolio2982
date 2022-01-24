@@ -1,0 +1,93 @@
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 10px;
+  box-shadow: 0 0 10px black;
+
+  &__avatar {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__name {
+    margin: 15px 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 30px;
+  }
+
+  &__title {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    font-size: 1.1rem;
+  }
+
+  &__icon {
+    width: 25px;
+    height: 25px;
+    color: #00ff66;
+  }
+
+  &__icon:hover {
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+    color: #ffc75e;
+  }
+
+  &__contact {
+    background-color: #dbdddf;
+    padding: 15px 10px;
+    margin: 20px 0 0;
+    align-items: flex-start;
+    border-radius: 10px;
+    min-width: 200px;
+    @media (max-width: 991px) {
+      min-width: 280px;
+    }
+
+    &__location {
+      padding: 5px 0;
+    }
+  }
+
+  &__email {
+    background-image: linear-gradient(to right bottom, #00ff66, #0575e6);
+    border-radius: 20px;
+    margin: 25px 30px 0px;
+    cursor: pointer;
+    transition: all 3s linear;
+    max-width: 150px;
+    padding: 8px 20px;
+    height: 40px;
+
+    span {
+      color: #ddd;
+      font-size: 1rem;
+    }
+  }
+
+  &__email:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+  }
+}
+
+@media (max-width: 991px) {
+  .app__main-content {
+    margin: 30px 0;
+  }
+}

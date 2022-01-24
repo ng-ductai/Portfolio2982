@@ -1,0 +1,35 @@
+.resume {
+  padding-top: 20px;
+
+  &-card__heading,
+  &-language__heading {
+    margin-left: -10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #354538;
+    text-align: center;
+  }
+
+  &-card {
+    padding: 10px 0;
+
+    &__body {
+      padding: 10px 15px;
+
+    }
+
+    &__title {
+      font-weight: 600;
+      margin-left: 10px;
+    }
+
+    &__name {
+      font-size: 1rem;
+      margin: 0 0 5px;
+    }
+
+    &__details {
+      font-size: 1rem;
+    }
+  }
+}

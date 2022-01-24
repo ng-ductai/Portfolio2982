@@ -1,0 +1,23 @@
+.bar {
+  width: 90%;
+  background-color: #e1e1e1;
+  border-radius: 20px;
+  margin-bottom: 12px;
+
+  
+  
+  &__wrapper {
+    background-image: linear-gradient(90deg, #00ff66, #0575e6);
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: #fff;
+    font-size: 1rem;
+
+    &-icon {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+

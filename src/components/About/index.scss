@@ -1,0 +1,23 @@
+.about {
+  padding: 20px;
+  margin: -35px;
+
+  &__intro {
+    font-size: 1.1rem;
+    padding: 20px 30px;
+    margin: 10px 0;
+    color: #333;
+  }
+
+  &__container {
+    background-color: #dbdddf;
+    padding: 25px 20px;
+
+    &-heading {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #141414;
+      margin-left: 10px;
+    }
+  }
+}

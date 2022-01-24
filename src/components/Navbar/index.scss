@@ -1,0 +1,37 @@
+.navbar {
+  &__items {
+    display: flex;
+  }
+
+  &__active {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    border-bottom: 4px solid #00ff66;
+  }
+
+  &__item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #3e495a;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  &__item:hover {
+    background: -webkit-linear-gradient(#00ff66, #0575e6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media (max-width: 600px) {
+    &__active {
+      font-size: 1.5rem;
+    }
+
+    &__item {
+      font-size: 1rem;
+    }
+  }
+}
